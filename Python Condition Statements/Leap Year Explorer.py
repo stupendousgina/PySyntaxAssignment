@@ -12,6 +12,6 @@ if (leap_year % 400 == 0) and (leap_year % 100 == 0):
     print(f"{leap_year} is a leap year!")
 elif (leap_year % 4 == 0) and (leap_year % 100 != 0):
     print(f"{leap_year} is a leap year!")
-elif (leap_year % 100 == 0) or (leap_year % 4 != 0):
+else:
     print(f"{leap_year} is not leap year.")
 
